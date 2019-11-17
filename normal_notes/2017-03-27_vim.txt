@@ -1,0 +1,16 @@
+
+
+[vim]
+http://www.kichwa.com/quik_ref/vi_ref.html
+https://www.slideshare.net/NicoleCordes/vi-cheat-sheet-v-1-00
+https://www.fprintf.net/vimCheatSheet.html
+http://vim.wikia.com/wiki/Search_and_replace
+http://vimdoc.sourceforge.net/
+http://vim.wikia.com/wiki/Vim_documentation
+http://vim.wikia.com/wiki/VimTip882
+http://vim.wikia.com/wiki/Category:VimTip
+http://vim.wikia.com/wiki/Category:Usage
+http://vim.wikia.com/wiki/Category:Java
+http://vim.wikia.com/wiki/Vim_as_XML_Editor
+
+

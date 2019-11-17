@@ -1,0 +1,99 @@
+2017-04-05
+
+Linux command ref:
+https://ss64.com/bash/
+
+a comprehensive download page for all widespread Linux releae
+http://iso.linuxquestions.org/
+aHR0cDovL3d3dy5saW51eHF1ZXN0aW9ucy5vcmd8d2hraW5nMjAwMy8zLi4uLi4ufHdoa2luZzIwMDNAMTYzLmNvbQo=
+
+[get current system information/software]
+HowTo: Find Out My Linux Distribution Name and Version
+https://www.cyberciti.biz/faq/find-linux-distribution-name-version-number/
+[Good] a dynamic picture and a video insided
+1) cat /etc/*-release
+2) lsb_release -a
+3) cat /proc/version
+
+[get current system information/hardware]
+TBD
+
+
+[alias/unalias]
+http://www.linfo.org/alias.html
+https://ss64.com/bash/alias.html
+alias port='netstat -tulanp'
+alias ..='cd ..'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias .....='cd ../../../../'
+
+The Linux Information Project
+http://www.linfo.org/
+[Good]several valuable articles, such in the front page, and at the bottom of this page:
+http://www.linfo.org/newbies.html
+
+The Linux Command Line
+http://linuxcommand.org/tlcl.php
+[Good]PDF version is availabe to be download. have easy understand figure inside
+
+Linux command to list all available commands and aliases
+http://stackoverflow.com/questions/948008/linux-command-to-list-all-available-commands-and-aliases
+compgen -ac | grep searchstr
+[Good]
+
+What are good Linux/Unix books for an advancing user? [closed]
+http://stackoverflow.com/questions/236838/what-are-good-linux-unix-books-for-an-advancing-user
+
+[regular command sample]
+ll -t | head
+ls -alt | head -15
+tail -1000 tomcat.log
+tail -f /var/log/wifi.log
+head -50 file.txt | tail -10
+
+
+短链接生成算法
+logback example
+You can find sample configuration files in the logback-examples/src/main/java/chapters/appenders/conf/ folder shipping within the logback 
+
+distribution.
+
+http://alias-i.com/lingpipe/index.html
+http://alias-i.com/lingpipe/web/about.html
+
+putty to iapp53.iadvantage.ms.com
+suu to qa
+see /proc/pid
+ps -ef | grep java | grep 7031
+
+df -h
+ll -d */
+
+stat file.txt
+fc -l
+
+
+LDAP and JNDI: Together forever
+http://www.javaworld.com/article/2076073/java-web-development/ldap-and-jndi--together-forever.html
+LDAP defines how clients should access data on the server, not how that data is stored on the server. This allows LDAP to become a frontend to any 
+
+type of data store.
+
+JNDI as an LDAP API
+https://docs.oracle.com/javase/tutorial/jndi/ldap/index.html
+
+What is Best java API to connect to LDAP Server? 
+http://stackoverflow.com/questions/19089848/what-is-best-java-api-to-connect-to-ldap-server
+
+机械键盘的保养与清洗？
+https://www.zhihu.com/question/29693112
+
+‘All right’ or ‘alright’? 
+https://en.oxforddictionaries.com/usage/all-right-or-alright
+http://www.quickanddirtytips.com/education/grammar/all-right-versus-alright
+
+use predicate for "判断", instead of judgement, see Java function: Stream.filter(Predicate predicate)
+
+String.format("Approval coverage %s has the same priority matching user %s on resource %s", percent, user, res)
+
