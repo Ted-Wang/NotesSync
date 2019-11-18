@@ -1,0 +1,3 @@
+# Just ignore the plain notes folder
+# All non-disclosure notes should put into a sub folder under this encrypted_notes/, and then will encrypted and packed as a respective file.
+encrypted_notes/*/
